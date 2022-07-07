@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Problema3 {
 
-    public static void main(String args[]){
+	public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Escriu un valor: ");
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Escriu un valor: ");
 
-        int number = scanner.nextInt();
+		int number = scanner.nextInt();
 
-        System.out.println("El valor es: " + number);
-    }
+		System.out.println("El valor es: " + number);
+	}
 }

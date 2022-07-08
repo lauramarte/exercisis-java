@@ -15,10 +15,10 @@ public class Problema3 {
 		int minuts = segons / 60;
 		minuts = minuts % 60;
 		int hores = segons / 3600;
-		hores = hores % 60;
-		int dies = segons / 86400;
-		dies = dies % 24;
+		int dies = hores / 24;
+		hores = hores % 24;
 		int setmanes = dies / 7;
+		dies = dies % 7;
 
 		System.out.println("Son: " + setmanes + " setmanes, " + dies + " dies, " + hores + " hores, " + minuts + " minuts i " + sec + " segons.");
 	}

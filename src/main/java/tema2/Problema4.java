@@ -11,10 +11,8 @@ public class Problema4 {
 
 		float digit = scanner.nextFloat();
 
-
-
 		System.out.println("Valor introduit: " + digit);
-		System.out.println("Valor en CODI ASCII: " + ascii);
+		//System.out.println("Valor en CODI ASCII: " + ascii);
 		System.out.println("Valor enter sense decimal: " + String.format("%.0f", digit));
 	}
 }

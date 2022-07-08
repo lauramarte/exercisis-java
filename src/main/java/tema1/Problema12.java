@@ -16,6 +16,5 @@ public class Problema12 {
 
 		System.out.println("El perimetre es: " + perimetre);
 		System.out.println("L'area es: " + area);
-
 	}
 }

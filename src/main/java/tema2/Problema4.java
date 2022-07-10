@@ -9,10 +9,11 @@ public class Problema4 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Escriu un digit en decimal: ");
 
-		float digit = scanner.nextFloat();
+		char digit = scanner.next().charAt(0);
+
+		int ascii = (int) digit;
 
 		System.out.println("Valor introduit: " + digit);
-		//System.out.println("Valor en CODI ASCII: " + ascii);
-		System.out.println("Valor enter sense decimal: " + String.format("%.0f", digit));
+		System.out.println("Valor en CODI ASCII: " + ascii);
 	}
 }

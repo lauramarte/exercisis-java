@@ -16,10 +16,8 @@ public class Problema15 {
 		} else if(c == Character.toUpperCase(c)){
 			System.out.println(Character.toLowerCase(c));
 		} else if(Character.isDigit(c)){
-
-			// FALTA CODI ASCII
-
-			System.out.println(c);
+			int ascii = (int) c;
+			System.out.println(ascii);
 		} else if(Character.isWhitespace(c)){
 			System.out.println("Simbol delimitador.");
 		} else {

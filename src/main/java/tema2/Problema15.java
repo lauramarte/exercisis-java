@@ -11,9 +11,9 @@ public class Problema15 {
 
 		char c = scanner.next().charAt(0);
 
-		if(c == Character.toLowerCase(c)){
+		if(Character.isLowerCase(c)){
 			System.out.println(Character.toUpperCase(c));
-		} else if(c == Character.toUpperCase(c)){
+		} else if(Character.isUpperCase(c)){
 			System.out.println(Character.toLowerCase(c));
 		} else if(Character.isDigit(c)){
 			int ascii = (int) c;

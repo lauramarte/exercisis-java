@@ -14,7 +14,10 @@ public class Problema1 {
 		System.out.println("Escriu un valor b: ");
 		char b = scanner.next().charAt(0);
 
-		System.out.println("Els valors intercanviats son: " + b + " i " + a);
+		char c = a;
+		a = b;
+		b = c;
+		System.out.println("Els valors intercanviats son: " + a + " i " + b);
 
 	}
 }

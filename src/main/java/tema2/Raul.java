@@ -1,18 +1,15 @@
 package tema2;
 
-import java.util.Scanner;
-
 public class Raul {
 
 	public static void main(String[] args){
-
-		char[] raul = {116, 101, 32, 101, 115, 116, 105, 109, 111, 32, 60, 51};
-		String r = new String(raul);
-
-		char[] laura = {106, 111, 32, 116, 97, 109, 98, 101, 32, 116, 101, 32, 101, 115, 116, 105, 109, 111, 32, 60, 51};
-		String l = new String(laura);
-
-		System.out.println(r);
-		System.out.println(l);
+		int[] raul = new int[]{116, 101, 32, 101, 115, 116, 105, 109, 111, 32, 60, 51};
+		char[] raulChars = new char[raul.length];
+		for(int i =0;i<raul.length;i++){
+			raulChars[i] = (char) raul[i];
+		}
+		String raulString = new String(raulChars);
+		System.out.println(raulString);
 	}
+
 }

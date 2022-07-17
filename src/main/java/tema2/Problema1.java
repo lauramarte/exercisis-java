@@ -7,17 +7,18 @@ public class Problema1 {
 	public static void main(String[] args){
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Escriu un valor a: ");
+		System.out.println("Escriu un primer: ");
 
-		char a = scanner.next().charAt(0);
+		int num1 = scanner.nextInt();
 
-		System.out.println("Escriu un valor b: ");
-		char b = scanner.next().charAt(0);
+		System.out.println("Escriu el segon valor: ");
 
-		char c = a;
-		a = b;
-		b = c;
-		System.out.println("Els valors intercanviats son: " + a + " i " + b);
+		int num2 = scanner.nextInt();
 
+		int c = num1;
+		num1 = num2;
+		num2 = c;
+
+		System.out.println("Els valors intercanviats son: " + num1 + " i " + num2);
 	}
 }
